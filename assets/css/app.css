@@ -746,6 +746,61 @@ text-align: center;
     border-color: #208DCD;
   
 }
+.Questions{
+    background-image:  url("../media/Group\ 4.png");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Questions-header{
+    margin-top: 50px;
+font-family: Barlow-SimiBold;
+font-size: 48px;
+color: #FFFFFF;
+margin-bottom: 0;
+text-align: center;
+}
+.Questions-supheader{
+    color: #E6E6E6;
+    font-family: Barlow-Regular;
+    font-size: 18px;
+    text-align: center;
+}
+.accordion{
+    --bs-accordion-bg: transparent !important;
+}
+.accordion button{
+    color: white !important;
+
+}
+.accordion-item {
+    border: 2px solid #242424; /* Change to your desired color */
+}
+.accordion-button{
+    font-size: 22px;
+    font-family: Barlow-Midium;
+
+}
+.accordion-button {
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+    color: #208DCD !important;
+    background-color: transparent;
+    border-color: red !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none; /* Remove the default background image */
+}
+.accordion-body {
+    background-color: transparent;
+}
+.accordion-body{
+    color: #E6E6E6 !important;
+    font-size: 18px !important;
+    font-family: Barlow-Regular !important;
+
+}
 /* end of landing with navbar */
 @media screen and (max-width: 1280px) {
     .header-text {
@@ -755,6 +810,26 @@ text-align: center;
 
 
 @media  (max-width: 768px) {
+    footer{
+        margin-top: 700px !important;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+
+    }
+   
+    .formm{
+        width: 100%;
+        max-width: 89%;
+    }
   
     .navbar-brand {
         margin-left: 0 !important; 
@@ -779,4 +854,68 @@ text-align: center;
     #navbarNav {
         margin-left: 4%;
     }
+    .Thank h3{
+        text-align: center;
+    }
+    .removeDs{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-group{
+        width: 100% !important;
+    }
+    .hh{
+        height: 50% !important;
+        width: 100% !important;
+    }
+    .removepos{
+        position: relative;
+        right: 0 !important;
+    }
   }
+
+  :root {
+    --animate-duration: 900ms;
+    --animate-delay: 0.9s;
+  }
+  .btn-secondary:hover{
+    background-color: #208DCD !important;
+  }
+  .nav-link:hover{
+    color: #208DCD;
+  }
+.Thank{
+   
+        background-image:  url("../media/Group\ 5.png");
+        background-position:  center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    
+}
+.Thank h3{
+    font-size: 38px;
+    color: #FFFFFF;
+    font-family: Barlow-SimiBold;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.Thank p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Barlow-Regular;
+    text-align: center;
+ 
+
+}
+label{
+    font-size: 22px !important;
+    font-family: Barlow-Midium !important;
+    color: #FFFFFF  !important;
+
+}
+input::-webkit-input-placeholder {
+    color: #656567 !important;
+}
+
